@@ -19,6 +19,16 @@ var _3years = 3;
 var johnMark = 'John and Mark'
 */
 
+
+
+
+
+
+
+
+
+
+
 /*
  Variable mutation and type coercion
  */
@@ -45,6 +55,10 @@ alert(firstName + ' is ' + age + ' years old ' +
 var lastName = prompt('What is his last name?');
 console.log(firstName + ' ' + lastName);
 */
+
+
+
+
 
 
 //Basic operators
@@ -74,6 +88,11 @@ console.log(typeof 'Mark is older then John');
 var x;
 console.log(typeof x);
 */
+
+
+
+
+
 
 //Operator precedence
 /*
@@ -116,8 +135,12 @@ x++;
 console.log(x);
 */
 
-//CODING CHALLENGE 1
 
+
+
+
+//CODING CHALLENGE 1
+/*
 var mMass = Number(prompt("What is Mark's mass in kilogramms?"));
 var mHeight = Number(prompt("What is Mark's height in meters?"));
 
@@ -130,6 +153,11 @@ var jBMI = jMass / (jHeight * jHeight);
 var res = mBMI > jBMI;
 console.log("Is Mark\'s BMI higher than John\'s? " + res);
 console.log(mBMI, jBMI);
+*/
+
+
+//If / else statements
+
 
 
 
