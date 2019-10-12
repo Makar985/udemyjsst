@@ -202,10 +202,78 @@ if (age < 13) {
 
 //The ternary operator and Switch statements
 
+/*
+//Ternary operator
+var firstName = 'John';
+var age = prompt("What is John's age?");
+age >= 18 ? console.log(firstName + ' drinks beer.') : console.log(firstName + ' drinks juice.') ;
+
+var drink = age >= 18 ? 'beer' : 'juice';
+console.log(drink);
+
+
+/*if (age >= 18) {
+    var drink = 'beer';
+} else {
+    var drink = 'juive';
+}*/
+
+//Switch statement
+
+/*
+var job = 'cop';
+switch(job) {
+    case 'teacher':
+    case 'instructor':
+        console.log(firstName + ' teaches kids how to code.');
+        break;
+    case 'driver':
+        console.log(firstName + ' drives in Uber.');
+        break;
+    default:
+        console.log(firstName + ' does something else.');
+}
+
+switch (true) {
+    case age < 13:
+        console.log(firstName + ' is a boy.');
+        break;
+    case age >= 13 && age < 20:
+        console.log(firstName + ' is a teenager.');
+        break;
+    case age >= 20 && age < 38:
+        console.log("John is a young man ");
+    default:
+        console.log(firstName + " is a man");
+        
+}
+*/
 
 
 
 
+
+
+// Truthy and Falsy values and equality operators
+
+//falsy values: undefined, null, 0, '', NaN
+
+//truthy values: NOT falsy values
+
+var height;
+
+height = 23;
+if (height || height === 0) {
+    console.log("Variable is defined.")
+} else {
+    console.log("Variable has NOT been defined.");
+}
+
+//Equality operators
+
+if (height == '23') {
+    console.log("The == operator does the type coercion!");
+}
 
 
 
