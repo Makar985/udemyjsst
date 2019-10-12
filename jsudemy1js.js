@@ -76,7 +76,7 @@ console.log(typeof x);
 */
 
 //Operator precedence
-
+/*
 var now = 2018;
 var yearJohn = 1989;
 var fullAge = 18;
@@ -114,8 +114,22 @@ x = x + 1;
 x += 1;
 x++;
 console.log(x);
+*/
 
+//CODING CHALLENGE 1
 
+var mMass = Number(prompt("What is Mark's mass in kilogramms?"));
+var mHeight = Number(prompt("What is Mark's height in meters?"));
+
+var jMass = Number(prompt("What is John's mass in kilogramms?"));
+var jHeight = Number(prompt("What is John's height in meters?"));
+
+var mBMI = mMass  / (mHeight * mHeight);
+var jBMI = jMass / (jHeight * jHeight);
+
+var res = mBMI > jBMI;
+console.log("Is Mark\'s BMI higher than John\'s? " + res);
+console.log(mBMI, jBMI);
 
 
 
