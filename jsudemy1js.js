@@ -23,12 +23,6 @@ var johnMark = 'John and Mark'
 
 
 
-
-
-
-
-
-
 /*
  Variable mutation and type coercion
  */
@@ -157,6 +151,31 @@ console.log(mBMI, jBMI);
 
 
 //If / else statements
+
+var firstName = 'John';
+var civilStatus = 'single';
+
+if (civilStatus === 'married') {
+    console.log(firstName + " is married");
+} else {
+    console.log(firstName + ' will hopefuly marry soon');
+}
+
+var mMass = Number(prompt("What is Mark's mass in kilogramms?"));
+var mHeight = Number(prompt("What is Mark's height in meters?"));
+
+var jMass = Number(prompt("What is John's mass in kilogramms?"));
+var jHeight = Number(prompt("What is John's height in meters?"));
+
+var mBMI = mMass  / (mHeight * mHeight);
+var jBMI = jMass / (jHeight * jHeight);
+
+if (mBMI > jBMI) {
+    console.log('Mark\'s BMI is higher than John\'s');
+} else {
+    console.log('John\'s BMI is higher than Mark\'s'); 
+}
+
 
 
 
