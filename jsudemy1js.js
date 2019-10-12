@@ -152,6 +152,7 @@ console.log(mBMI, jBMI);
 
 //If / else statements
 
+/*
 var firstName = 'John';
 var civilStatus = 'single';
 
@@ -175,6 +176,34 @@ if (mBMI > jBMI) {
 } else {
     console.log('John\'s BMI is higher than Mark\'s'); 
 }
+
+*/
+
+//Boolean logic
+/*
+var firstName = 'John';
+var age = prompt("What is John\'s age?");
+
+if (age < 13) {
+    console.log(firstName + " is a boy");
+} else if (age >= 13 && age < 20) {
+    console.log(firstName + " is a teenager");
+} else if (age >= 20 && age < 30) {
+    console.log("John is a young man ");
+} else {
+    console.log(firstName + " is a man");
+}
+*/
+
+
+
+
+
+
+//The ternary operator and Switch statements
+
+
+
 
 
 
