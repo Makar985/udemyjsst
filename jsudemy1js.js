@@ -329,7 +329,7 @@ yearsUntilRetirement(1990, 'John');
 */
 
 //Function Statements and Expressions
-
+/*
 var whatDoYouDo = function(job, firstName) {
     switch(job) {
         case 'teacher':
@@ -339,14 +339,15 @@ var whatDoYouDo = function(job, firstName) {
         case 'designer':
             return firstName + ' designes beautiful websites';
         default:
-            return firstName +  " does something else."
+            return firstName +  " does something else.";
     }
 }
 
 
 
-console.log(whatDoYouDo(prompt("What is your job?"), 'John'));
+console.log(whatDoYouDo("teacher", 'John');
 
+*/
 
 
 
