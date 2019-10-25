@@ -1,3 +1,4 @@
+
 /*
 Variables and datatypes
 */
@@ -229,6 +230,7 @@ switch(job) {
         break;
     case 'driver':
         console.log(firstName + ' drives in Uber.');
+        /*
         break;
     default:
         console.log(firstName + ' does something else.');
@@ -260,7 +262,7 @@ switch (true) {
 
 //truthy values: NOT falsy values
 
-var height;
+/*var height;
 
 height = 23;
 if (height || height === 0) {
@@ -274,19 +276,76 @@ if (height || height === 0) {
 if (height == '23') {
     console.log("The == operator does the type coercion!");
 }
+*/
 
 
 
+//Coding challenge 2
+
+/*
+var J_1, J_2, J_3, M_1, M_2, M_3, JS, MS;
+
+J_1 = 89;
+J_2 = 120;
+J_3 = 103;
+M_1 = 116;
+M_2 = 94;
+M_3 = 123;
+JS = (J_1 + J_2 + J_3) / 3;
+MS = (M_1 + M_2 + M_3) / 3;
+if (JS > MS) {
+    console.log("The winner is...");
+    console.log("John's team with score " + JS);
+} else if (JS == MS) {
+    console.log("The winner is...");
+    console.log("FREINDSHIP with score" + JS);
+} else {
+    console.log("The winner is...");
+    console.log("Mark's team with score " + MS);
+}
+*/
 
 
 
+//Functions
+/*
+function calculateAge(birthYear) {
+    return 2019 - birthYear;
+}
+
+
+var ageJohn = calculateAge(1990);
+console.log(ageJohn);
+
+
+function yearsUntilRetirement(year, firstName) {
+    var age = calculateAge(year);
+    var retirement = 65 - age;
+    console.log(firstName + ' retires in ' + retirement + " years.");
+}
+
+yearsUntilRetirement(1990, 'John');
+
+*/
+
+//Function Statements and Expressions
+
+var whatDoYouDo = function(job, firstName) {
+    switch(job) {
+        case 'teacher':
+            return firstName + ' teaches kids how to code.';
+        case 'driver':
+            return firstName + " drives a cab in Lisbon"
+        case 'designer':
+            return firstName + ' designes beautiful websites';
+        default:
+            return firstName +  " does something else."
+    }
+}
 
 
 
-
-
-
-
+console.log(whatDoYouDo(prompt("What is your job?"), 'John'));
 
 
 
