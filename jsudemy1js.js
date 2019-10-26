@@ -351,13 +351,34 @@ console.log(whatDoYouDo("teacher", 'John');
 
 
 
+//Arrays
+
+//Initializing
+var names = ['John', 'Mark', 'Jane'];
+var years = new Array(1990, 1969, 1948);
+
+console.log(names);
+console.log(names.length);
+
+//Mutating Data
+names[1] = 'Ben';
+console.log(names);
+
+names[names.length] = 'Mary';
+
+console.log(names);
 
 
 
+//different data types
+var john = ['John', 'Smith', 1990, 'teacher', false];
 
 
+john.push('blue');
+john.unshift('Mr.')
+console.log(john);
 
 
-
-
+john.pop();
+console.log(john);
 
