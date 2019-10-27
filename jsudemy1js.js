@@ -515,7 +515,7 @@ while (i < john.length) {
     
 */
 //continue and break statements
-
+/*
 var john = ['John', 'Smith', 1990, 'teacher', false];
 
 for (var i = 0; i < john.length; i ++) {
@@ -541,6 +541,72 @@ for (var i = 0; i < john.length; i ++) {
 for (var i = john.length - 1; i >= 0; i--) {
   console.log(john[i])  ;
 };
+
+
+*/
+
+
+//CODUNG CHALLENGE 5
+
+
+/*
+var bills, tips, res;
+
+
+bills = [124, 48, 268, 180, 42];
+tips = [0, 0, 0, 0, 0];
+res = [0, 0, 0, 0, 0];
+
+
+for (var i = 0; i <= 4; i ++) {
+    if (bills[i] <= 50) {
+        tips[i] = bills[i] / 0.2;
+    }
+    else if (50 < bills[i] < 200) {
+        tips[i] = bills[i] / 0.15;
+    }
+    else if (200 < bills[i]) {
+        tips[i] = bills[i] / 0.1; 
+    }
+};
+
+
+for (var i = 0; i <= 4; i++) {
+    res[i] = bills[i] + tips[i];
+};
+console.log(tips);
+
+console.log(res);
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
