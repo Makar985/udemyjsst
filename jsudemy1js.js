@@ -349,7 +349,7 @@ console.log(whatDoYouDo("teacher", 'John');
 
 */
 
-
+/*
 
 //Arrays
 
@@ -381,4 +381,198 @@ console.log(john);
 
 john.pop();
 console.log(john);
+
+console.log(john.indexOf(23));
+
+
+var isDesigner = john.indexOf('designer') === -1 ? 'John is not a designer' : 'John is a designer';
+console.log(isDesigner);
+*/
+
+
+
+
+
+//coding challenge 3
+
+
+/*
+var b_1, b_2, b_3;
+b_1 = 124;
+b_2 = 48;
+b_3 = 268;
+
+var tips = [];
+
+function tip(bill) {
+    switch(bill) {
+        case bill < 50:
+            tips.push(bill * 0.2);
+        case bill < 200 & bill > 50:
+            tips.push(bill * 0.15);
+        case bill > 200:
+            tips.push(bill * 0.1);
+    }
+}
+tip(b_1);
+tip(b_2);
+tip(b_3);
+console.log(tips);
+console.log(tips[0] + b_1, tips[1] + b_2, tips[2] + b_3);
+
+*/
+
+
+
+
+
+
+
+
+
+//Objects and properties
+/*
+var john = {
+    firstName: 'John',
+    lastName: 'Smith',
+    birthYear: 1990,
+    family: ['Jane', 'Mark', 'Bob', 'Emily'],
+    job: 'teacher',
+    isMarried: 'false'
+};
+
+console.log(john.firstName);
+john.job = 'designer':
+
+
+var Jane = new Object();
+jane.name = 'Jane';
+*/
+
+
+
+//CODING CHALLENGE 4
+
+/*
+var john = {
+    firstName:'John',
+    height: prompt("What's John's height?"),
+    weight: prompt("What's John's weight?"),
+    bmi: bmi_(john.weight, john.height)
+};
+var mark = {
+    firstName:'John',
+    height: prompt("What's Mark's height?"),
+    weight: prompt("What's Mark's weight?"),
+    bmi: bmi_(mark.weight, mark.height)
+};
+
+function bmi_(weight, height) {
+    return weight / (height * height);
+};
+
+console.log("Mark's BMI is " + mark.bmi);
+console.log("John's BMI is " + john.bmi);
+
+if (john.bmi > mark.bmi) {
+    console.log("John's BMI is higher then Mark's.")
+} 
+else if (mark.bmi > john.bmi) {
+    console.log("Mark's BMI is higher then John's.")
+}
+else {
+    console.log("Mark's and John'sBMI are equal.")
+}
+*/
+
+
+
+
+
+
+//Loops and Iteration
+//for
+
+/*
+for (var i = 0; i < 10; i ++) {
+   console.log(i); 
+}  
+
+
+var john = ['John', 'Smith', 1990, 'teacher', false];
+
+for (var i = 0; i < john.length; i ++) {
+    console.log(john[i]);
+};
+
+
+//while
+var i = 0
+while (i < john.length) {
+    console.log(john[i]);
+    i++;
+}
+    
+*/
+//continue and break statements
+
+var john = ['John', 'Smith', 1990, 'teacher', false];
+
+for (var i = 0; i < john.length; i ++) {
+    if (typeof john[i] !== 'string') continue;
+    console.log(john[i]);
+    
+};
+
+
+for (var i = 0; i < john.length; i ++) {
+    if (typeof john[i] !== 'string') break;
+    console.log(john[i]);
+    
+};
+
+
+
+
+
+
+//Looping backwords
+
+for (var i = john.length - 1; i >= 0; i--) {
+  console.log(john[i])  ;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
